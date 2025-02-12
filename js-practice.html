@@ -30,7 +30,34 @@ console.log(name);
 
 // Strings on my own
 let greeting = 'My name is ' + name;
-console.log(greeting)
+console.log(greeting);
+
+console.log("Using functions:");
+
+// function to make square numbers
+function makeSquare(theNumb) {
+  let squared = Math.pow(theNumb, 2);
+  return squared;
+}
+
+let try01 = makeSquare(3);
+console.log(try01);
+
+// Functions on my own
+function makeName(firstName, middleName, lastName) {
+  let fullName = firstName + " " + middleName + " " + lastName;
+  return fullName;
+}
+
+let tryName01 = makeName('Ella', 'Elizabeth', 'Barnes');
+console.log(tryName01);
+
+let tryName02 = makeName('Taylor', 'Alison', 'Swift');
+console.log(tryName02);
+
+let tryName03 = makeName('Robert', '"Beto"', "O'Rourke")
+console.log(tryName03);
+
   </script>
 </body>
 </html>
