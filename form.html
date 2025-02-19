@@ -11,8 +11,8 @@
     <p>Middle name: <input type="text" name="middle" value="Elessar"></p>
     <p>Last name: <input type="text" name="last" value="Telcontar"></p>
     <input type="button" value="Make name" onclick="makeBetterName()">
-  </form> 
-  
+  </form>  
+
   <script>
     function makeBetterName() {
       let fName = document.getElementById("nameForm").first.value;
@@ -24,11 +24,9 @@
       let fullName = fName + " " + mName + " " + lName;
       document.getElementById("nameHead").innerHTML = fullName;
     }
-
     console.log(makeBetterName());
   </script>
 
-  <h3 id="nameHead">Name will go here</h3>
-  
+  <h3 id="nameHead">Name will go here</h3> 
 </body>
 </html>
